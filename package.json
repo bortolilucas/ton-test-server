@@ -4,7 +4,8 @@
   "author": "Lucas Bortoli",
   "license": "MIT",
   "scripts": {
-    "server": "nodemon server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.17.1"
