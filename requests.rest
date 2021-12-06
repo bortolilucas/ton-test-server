@@ -1,5 +1,6 @@
+@baseUrlLocal = http://localhost:3000/api
 @baseUrl = https://tontest-server.herokuapp.com/api
 
 ###
 
-GET {{baseUrl}}/products?page=2 HTTP/2.0
+GET {{baseUrlLocal}}/products?page=1&search=Mens HTTP/2.0
